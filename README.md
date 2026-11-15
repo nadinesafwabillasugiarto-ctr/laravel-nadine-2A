@@ -116,6 +116,7 @@ laravel-nadine-2A/
 ├── .env.example
 ├── composer.json
 └── README.md
+```
 
 ---
 ## 💻 Panduan Instalasi & Menjalankan Proyek (Local Setup)
@@ -123,7 +124,7 @@ laravel-nadine-2A/
 1. **Clone repositori ke perangkat lokal:**
    ```bash
    git clone [https://github.com/nadinesafwabillasugiarto-ctr/laravel-nadine-2A.git](https://github.com/nadinesafwabillasugiarto-ctr/laravel-nadine-2A.git)
-
+   ```
 ---
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
