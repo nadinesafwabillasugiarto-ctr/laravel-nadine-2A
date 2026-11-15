@@ -21,8 +21,4 @@ public function home() {
         return view('detail', ['harga' => $harga]);
     }
 
-    // About (/about)
-    public function about() {
-        return view('about');
-    }
 }

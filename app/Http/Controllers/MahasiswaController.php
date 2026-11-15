@@ -14,6 +14,7 @@ class MahasiswaController extends Controller
             ['nama' => 'Athala', 'alamat' => 'Nganjuk', 'gender' => 'L'],
             ['nama' => 'Dhennys', 'alamat' => 'Malang', 'gender' => 'L'],
             ['nama' => 'Chelsea', 'alamat' => 'Surabaya', 'gender' => 'P'],
+            ['nama' => 'Inez', 'alamat' => 'Nganjuk', 'gender' => 'P'],
         ];
 
         // Kirim data ke view 'mahasiswa' menggunakan teknik parsing data
