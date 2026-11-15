@@ -13,9 +13,8 @@
 
 ## 👤 Identitas Pengembang & Akademik
 * **Nama Lengkap:** Nadine Safwabilla Al Khalifi Sugiarto
-* **Program Studi:** Strata 1 (S1) Sistem Informasi
-* **Fakultas:** Fakultas Teknik dan Ilmu Komputer (FTIK)
-* **Institusi:** Universitas Nusantara PGRI (UNP) Kediri
+* **NPM:** 2513020002
+* **Program Studi:** Sistem Informasi
 * **Mata Kuliah / Tugas:** Praktikum Pemrograman Web (Project 2A)
 
 ---
