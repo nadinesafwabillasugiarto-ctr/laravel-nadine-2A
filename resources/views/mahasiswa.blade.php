@@ -9,13 +9,18 @@
 <body class="bg-light">
     <div class="container mt-5">
         <div class="card shadow p-4">
-            <h2 class="mb-4 text-primary">DAFTAR MAHASISWA</h2>
+            
+            <!-- Judul dengan warna Merah Maroon -->
+            <h2 class="mb-4" style="color: #800000; font-weight: bold;">DAFTAR MAHASISWA</h2>
+            
+            <!-- Tabel -->
             <table class="table table-bordered table-striped">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Nama</th>
-                        <th>Alamat</th>
-                        <th>Gender</th>
+                <!-- Tambahkan style langsung pada tr/th agar menimpa default Bootstrap -->
+                <thead>
+                    <tr style="background-color: #800000; color: white;">
+                        <th style="background-color: #800000; color: white;" class="text-white">Nama</th>
+                        <th style="background-color: #800000; color: white;" class="text-white">Alamat</th>
+                        <th style="background-color: #800000; color: white;" class="text-white">Gender</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,6 +33,7 @@
                     @endforeach
                 </tbody>
             </table>
+            
         </div>
     </div>
 </body>
