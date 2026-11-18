@@ -1,75 +1,95 @@
 body {
-    font: 16px arial, sans-serif;
-    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
     margin: 0;
-    padding: 20px;
+    padding: 30px 0;
 }
 
 .container {
-    width: 800px;
+    width: 850px;
     margin: auto;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 .header {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 25px 30px 15px 30px;
+    background-color: #ffffff;
 }
 
 .header .judul {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 0 15px 0;
 }
 
 .banner {
-    height: 200px;
-    background-image: url('https://picsum.photos/800/200');
+    height: 220px;
+    background-image: url('https://picsum.photos/850/220');
     background-size: cover;
     background-position: center;
-    border-top: 5px solid navy;
-    border-bottom: 5px solid skyblue;
+    border-top: 4px solid #800000;
+    /* Aksen Maroon */
+    border-bottom: 4px solid #3b82f6;
 }
 
-/* Bagian ini yang membuat sidebar dan content berdampingan */
 .isi {
     display: flex;
-    margin: 0;
+    min-height: 450px;
 }
 
 .sidebar {
-    width: 12rem;
-    min-height: 60vh;
-    background-color: navy;
-    padding: 15px;
+    width: 14rem;
+    background-color: #1e1b4b;
+    /* Navy gelap yang elegan */
+    padding: 25px 15px;
 }
 
 .content {
     flex: 1;
-    padding: 20px;
-    background-color: white;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.content h1 {
+    font-size: 24px;
+    color: #1e1b4b;
+    margin-top: 0;
+    border-bottom: 2px solid #f3f4f6;
+    padding-bottom: 10px;
+}
+
+.content p {
+    color: #4b5563;
+    line-height: 1.6;
 }
 
 .nav {
     padding-left: 0;
+    margin: 0;
 }
 
 .nav li {
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .nav li a {
     text-decoration: none;
-    color: white;
+    color: #cbd5e1;
     display: block;
-    padding: 5px 10px;
-    border-radius: 4px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav li a:hover {
-    background-color: lightblue;
-    color: navy;
+    background-color: #800000;
+    /* Berubah jadi Maroon saat disentuh */
+    color: #ffffff;
+    padding-left: 20px;
 }

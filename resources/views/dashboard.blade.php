@@ -18,6 +18,9 @@
                 @yield('content')
             </div>
         </div>
+
+        <!-- Footer di Bagian Bawah -->
+        @include('template.footer')
     </div>
 </body>
 </html>
