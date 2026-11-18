@@ -27,7 +27,7 @@ Route::get('/web',[Web::class, 'home']);
 Route::get('/profil/{nama}',[Web::class, 'profil']);
 
 // route ke controller DashboardController
-Route::get('/home', [DashboardController::class, 'home']);
+Route::get('/home', [DashboardController::class, 'home_olshop']);
 Route::get('/product', [DashboardController::class, 'product']);
 Route::get('/produk/detail/{harga}', [DashboardController::class, 'detail']);
 Route::get('/about', [DashboardController::class, 'about']);
@@ -54,3 +54,18 @@ Route::get('/kalkulator/segitiga', [KalkulatorSegitigaController::class, 'form']
 
 // Route untuk memproses hasil perhitungan form
 Route::post('/kalkulator/segitiga', [KalkulatorSegitigaController::class, 'hitung']);
+
+//route ke controller Dashboard
+Route::get('/dashboard',[DashboardController::class, 'home']);
+
+// route ke controller Dashboard untuk menampilkan halaman gallery
+Route::get('/gallery',[DashboardController::class, 'gallery']);
+
+// Rute Group dengan Middleware Login (jika sudah masuk bab auth, atau rute biasa dulu)
+Route::get('/dashboard', [DashboardController::class, 'home']);
+Route::get('/gallery', [DashboardController::class, 'gallery']);
+Route::get('/about', [DashboardController::class, 'about']);
+
+// Tambahan Latihan (Service & Contact)
+Route::get('/service', [DashboardController::class, 'service']);
+Route::get('/contact', [DashboardController::class, 'contact']);
