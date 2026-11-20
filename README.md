@@ -16,6 +16,7 @@
 - **NPM:** 2513020002
 - **Program Studi:** Sistem Informasi
 - **Mata Kuliah / Tugas:** Praktikum Pemrograman Web (Project 2A)
+- **Repositori Latihan (`Apps-Student`):** https://github.com/nadinesafwabillasugiarto-ctr/apps-student 
 
 ---
 
